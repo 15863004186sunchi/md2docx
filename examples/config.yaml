@@ -1,0 +1,22 @@
+match:
+  use_path: true
+  fuzzy_threshold: 0.88
+  duplicate_policy: error
+
+insert:
+  mode: replace
+  list_fallback_prefix: "-"
+  code_font_name: Consolas
+
+mermaid:
+  enabled: true
+  mmdc_path: mmdc
+  # 容器内可配置 puppeteer_config: /workspace/puppeteer-config.json
+  output_format: png
+  width: 1600
+  timeout_sec: 20
+  on_error: keep_code
+  image_width_ratio: 0.8
+
+report:
+  path: ./out/report.json

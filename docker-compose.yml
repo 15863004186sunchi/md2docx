@@ -1,0 +1,23 @@
+services:
+  md2docx-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: md2docx:local
+    container_name: md2docx-web
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    environment:
+      - MD2DOCX_MMDC_PUPPETEER_CONFIG=/workspace/puppeteer-config.json
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: ["python", "-m", "uvicorn", "md2docx.web:app", "--host", "0.0.0.0", "--port", "8080"]
+
+  md2docx-cli:
+    image: md2docx:local
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: ["md2docx", "--help"]

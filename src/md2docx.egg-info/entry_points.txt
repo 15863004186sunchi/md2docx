@@ -1,0 +1,2 @@
+[console_scripts]
+md2docx = md2docx.cli:app

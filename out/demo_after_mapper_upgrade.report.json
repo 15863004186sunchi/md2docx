@@ -1,0 +1,63 @@
+{
+  "summary": {
+    "matched": 4,
+    "ambiguous": 0,
+    "unmatched": 0,
+    "warnings": 0,
+    "mermaid_failures": 0
+  },
+  "matched": [
+    {
+      "md_path": "项目背景",
+      "md_title": "项目背景",
+      "strategy": "path_exact",
+      "confidence": 1.0,
+      "template_paragraph_index": 0,
+      "template_path": "项目背景",
+      "issue_code": null,
+      "candidate_paths": [],
+      "candidate_paragraph_indices": [],
+      "warning": null
+    },
+    {
+      "md_path": "项目背景/业务目标",
+      "md_title": "业务目标",
+      "strategy": "path_exact",
+      "confidence": 1.0,
+      "template_paragraph_index": 2,
+      "template_path": "项目背景/业务目标",
+      "issue_code": null,
+      "candidate_paths": [],
+      "candidate_paragraph_indices": [],
+      "warning": null
+    },
+    {
+      "md_path": "项目背景/核心流程",
+      "md_title": "核心流程",
+      "strategy": "path_exact",
+      "confidence": 1.0,
+      "template_paragraph_index": 4,
+      "template_path": "项目背景/核心流程",
+      "issue_code": null,
+      "candidate_paths": [],
+      "candidate_paragraph_indices": [],
+      "warning": null
+    },
+    {
+      "md_path": "项目背景/风险与应对",
+      "md_title": "风险与应对",
+      "strategy": "path_exact",
+      "confidence": 1.0,
+      "template_paragraph_index": 6,
+      "template_path": "项目背景/风险与应对",
+      "issue_code": null,
+      "candidate_paths": [],
+      "candidate_paragraph_indices": [],
+      "warning": null
+    }
+  ],
+  "ambiguous": [],
+  "unmatched": [],
+  "warnings": [],
+  "mermaid_failures": []
+}
