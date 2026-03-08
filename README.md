@@ -2,6 +2,8 @@
 
 将 Markdown 文档按标题映射填充到 Word 模板（`.docx`）中，支持 Mermaid 代码块转图片后插入。
 
+产品迭代计划：`docs/产品迭代计划-2026Q2.md`
+
 ## 1. 安装
 
 ```bash
