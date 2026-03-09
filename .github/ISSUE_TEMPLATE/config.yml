@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product Roadmap (2026Q2)
+    url: https://github.com/15863004186sunchi/md2docx/blob/main/docs/%E4%BA%A7%E5%93%81%E8%BF%AD%E4%BB%A3%E8%AE%A1%E5%88%92-2026Q2.md
+    about: Review milestone goals before creating issues.
